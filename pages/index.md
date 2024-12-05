@@ -18,7 +18,7 @@ where Date > '2018-01-01'
 group by all
 ```
 
-<DateRange name=date_filter data={dates} dates=date defaultValue={'Year To Date'}/>
+<DateRange name=date_filter data={dates} dates=date/>
 
 <Dropdown 
   data={companies} 
